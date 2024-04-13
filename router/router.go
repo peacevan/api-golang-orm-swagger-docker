@@ -2,7 +2,6 @@ package router
 
 import (
 	"os"
-
 	"github.com/gin-gonic/gin"
 )
 
