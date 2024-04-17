@@ -1,5 +1,5 @@
 
-# API em Go com ORM, Swagger e Docker
+# API in Go with ORM, Swagger and Docker
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -9,7 +9,9 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="assets/golang-api.png" alt="api em rest with golang">
+<img src="assets/rest-api-golang.png" alt="api em rest with golang">
+
+<img src="assets/diagrama.png" alt="api em rest with golang">
 
 > About Repository showcasing a Go API with ORM, Swagger, and Docker. It leverages the Gin framework, GORM for ORM, and Swag for documentation. Docker streamlines development and deployment.
 
@@ -28,11 +30,12 @@ Create a small goang + Angular app for orders management
 
 
  ## API implementation
-- [ ] Create rotes(restFull)  
-- [ ] Configuration package configuration
-- [ ] Add ORM
-- [ ] Add swagger API documentation
-- [ ] API dockerization
+- [x] Create rotes(restFull)  
+- [x] Configuration package configuration
+- [x] Add ORM
+- [x] Add swagger API documentation
+- [x] API dockerization
+- [ ] Conectar API com o postgresql
 
 ## Front-end Implementation with Angular 
 - [ ] List orders in a table
@@ -44,7 +47,7 @@ Create a small goang + Angular app for orders management
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
+* Você instalou a versão mais recente do `go1.22.2`
 * Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
 * Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
 
@@ -53,6 +56,14 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 Para instalar o <api-golang-orm-swagger-docker>, siga estas etapas:
 
 Linux e macOS:
+## DOCKER 
+
+
+## install swag
+
+ go get -u github.com/swaggo/swag/cmd/swag
+
+
 ```
 <api-golang-orm-swagger-docker>
 ```
@@ -67,34 +78,36 @@ Windows:
 Para usar <api-golang-orm-swagger-docker>, siga estas etapas:
 
 ```
-<exemplo_de_uso>
+consumindo  a API
 ```
+## Swaggaer
+<img src="assets/swagger.png" alt="Swaggwer">
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
+## Insominia
+<img src="assets/insomina.png" alt="Swaggwer">
+
 
 ## 📫 Contribuindo para <api-golang-orm-swagger-docker>
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <api-golang-orm-swagger-docker>, siga estas etapas:
+To contribute to<api-golang-orm-swagger-docker>, siga estas etapas:
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <api-golang-orm-swagger-docker> / <local>`
-5. Crie a solicitação de pull.
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<mensagem_commit>'`
+4. Push to the original branch: `git push origin <api-golang-orm-swagger-docker> / <local>`
+5. Create the pull request.
 
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
+Alternatively, see the GitHub documentation at [how to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request ).
 ## 🤝 Colaboradores
 
 
+## 😄 Become one of the contributors<br>
 
-## 😄 Seja um dos contribuidores<br>
+Do you want to be part of this project? Click [HERE](CONTRIBUTING.md) and read how to contribute
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
-## 📝 Licença
+## 📝 License
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+This project is under license. See the [LICENSE](LICENSE.md) file for more details.
 
-[⬆ Voltar ao topo](#api-golang-orm-swagger-docker)<br>
+[⬆ Back to top](#api-golang-orm-swagger-docker)<br>
 
