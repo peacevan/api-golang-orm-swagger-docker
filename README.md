@@ -9,7 +9,7 @@
 
 
 
-<img src="assets/diagrama.png" alt="api em rest with golang">
+<img src="assets/diagrama.png" alt="Diagram">
 
 > About Repository showcasing a Go API with ORM, Swagger, and Docker. It leverages the Gin framework, GORM for ORM, and Swag for documentation. Docker streamlines development and deployment.
 
