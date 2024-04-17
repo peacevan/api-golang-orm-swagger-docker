@@ -1,15 +1,13 @@
 
 # API in Go with ORM, Swagger and Docker
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+
 
 <img src="assets/rest-api-golang.png" alt="api em rest with golang">
+
+
+
 
 <img src="assets/diagrama.png" alt="api em rest with golang">
 
@@ -35,7 +33,7 @@ Create a small goang + Angular app for orders management
 - [x] Add ORM
 - [x] Add swagger API documentation
 - [x] API dockerization
-- [ ] Conectar API com o postgresql
+- [ ] Connect API in Postgresql
 
 ## Front-end Implementation with Angular 
 - [ ] List orders in a table
@@ -45,15 +43,17 @@ Create a small goang + Angular app for orders management
  
 ## 💻 Prerequisites
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-* Você instalou a versão mais recente do `go1.22.2`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+Before you begin, make sure you've met the following requirements:
+
+
+* You have installed the latest version of `go1.22.2`
+* You have a `<Windows/Linux/Mac>` machine.
+* You have read `<guide/link/documentation_related_to_project>`.
 
 ## 🚀 Instalando <api-golang-orm-swagger-docker>
 
-Para instalar o <api-golang-orm-swagger-docker>, siga estas etapas:
+Para instalar o <api-golang-orm-swagger-docker>, follow these steps:
 
 Linux e macOS:
 ## DOCKER 
@@ -75,16 +75,16 @@ Windows:
 
 ## ☕ Usando <api-golang-orm-swagger-docker>
 
-Para usar <api-golang-orm-swagger-docker>, siga estas etapas:
+to use  <api-golang-orm-swagger-docker>,follow these steps:
 
 ```
-consumindo  a API
+consuming the API
 ```
 ## Swaggaer
 <img src="assets/swagger.png" alt="Swaggwer">
 
 ## Insominia
-<img src="assets/insomina.png" alt="Swaggwer">
+<img src="assets/insominia.png" alt="Swaggwer">
 
 
 ## 📫 Contribuindo para <api-golang-orm-swagger-docker>
